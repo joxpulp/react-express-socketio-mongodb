@@ -32,5 +32,8 @@ var server = new http.Server(app);
 app.set('json spaces', 2);
 app.use(express_1.default.json()); // Indica que el body viene como JSON
 app.use(express_1.default.urlencoded({ extended: true })); // Indica que el body puede tener un informacion como no string
+app.get('/', function (req, res) {
+    res.json({ msg: 'Connected to the API' });
+});
 app.use('/api', index_1.default);
 exports.default = server;
