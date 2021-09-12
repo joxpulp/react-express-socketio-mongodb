@@ -15,7 +15,7 @@ Products:
 | PUT     |https://ecommerceapicoder.herokuapp.com/api/productos/actualizar/id | Updates a product by passing the product's id and a JSON Body |
 | DELETE |https://ecommerceapicoder.herokuapp.com/api/productos/borrar/id |Delete a product from the product list by passing the product's id |
 
-JSON Body template: 
+Product's JSON Body template: 
 ```Typescript
 {
     "title": string,
@@ -29,7 +29,7 @@ Messages:
 | GET     |https://ecommerceapicoder.herokuapp.com/api/mensajes/listar/ |List all products |
 | POST    |https://ecommerceapicoder.herokuapp.com/api/mensajes/agregar/ | Add a product by passing a JSON Body |
 
-JSON Body template: 
+Message's JSON Body template: 
 ```Typescript
 {
     "email": string,
