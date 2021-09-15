@@ -24,7 +24,7 @@ class MessageController {
 			if (!email || !message || !date || !time)
 				return res.status(404).json({ error: 'Body invalido' });
 
-			const msg = new message({ email, message, date, time });
+			const msg = new messages({ email, message, date, time });
 			const newMessage = await msg.save();
 
 			return res.json({ message: newMessage });
