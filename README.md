@@ -5,6 +5,12 @@ Front-End live demo: https://ecommerce-mongo.netlify.app/
 
 API live demo: https://ecommerceapicoder.herokuapp.com/
 
+## Scripts
+| Script        | Description                            |
+| ------------- |:--------------------------------------:|
+| npm install   | Install all dependencies               |
+| npm run dev   | Execute TS files with nodemon          | 
+
 ## Endpoints:
 Products:
 | Method       | Route          | Description  |
